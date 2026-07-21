@@ -9,3 +9,8 @@ counter = 0
 for item in my_list:
 	counter = counter + item 
 	print(counter)
+	
+cat_list = ['gato', 'young', 'debu']
+
+for cats in cat_list:
+	print(cats)
