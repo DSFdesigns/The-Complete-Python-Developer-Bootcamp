@@ -9,11 +9,13 @@ while 50  < 50:
 else:
 	print('Done with all the work')
 	
-	
-cats = 3
+# Practice Below:
+cats = 2
+dogs = 3
 
-while cats == 2:
-	print('There are 2 cats')
+while cats == dogs:
+	print('There are more cats')
 	break
 else:
-	print('How many cats are there?')
+	print('There are more dogs')
+
