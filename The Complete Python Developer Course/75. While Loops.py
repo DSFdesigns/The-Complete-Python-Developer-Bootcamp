@@ -1,21 +1,22 @@
 # While loops 
 i = 0
 
-while 50  < 50:
-	print(i)
+#while 50  < 50:
+#	print(i)
 #	break # breaks out of the loop
-	i += 1 # or turn conditon false
-	break
-else:
-	print('Done with all the work')
+#	i += 1 # or turn conditon false
+#	break
+#else:
+#	print('Done with all the work')
 	
 # Practice Below:
-cats = 2
-dogs = 3
+cats = 3
+dogs = 2
 
-while cats == dogs:
+while cats > dogs:
 	print('There are more cats')
 	break
 else:
-	print('There are more dogs')
+	print('There are more dogs!')
+
 
