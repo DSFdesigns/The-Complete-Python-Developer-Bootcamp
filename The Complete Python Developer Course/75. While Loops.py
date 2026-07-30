@@ -10,16 +10,14 @@ i = 0
 #	print('Done with all the work')
 	
 # Practice Below:
-cats = 5
-dogs = 3
+cats = 6
+dogs = 5
 
 while cats > dogs:
 	print('There are more cats')
 	break
-	
 if cats < dogs:
 	print('There are more dogs!')
-	
 if cats == dogs:
 	print('It is a tie!')
 

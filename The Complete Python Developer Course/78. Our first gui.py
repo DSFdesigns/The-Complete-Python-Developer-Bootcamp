@@ -14,8 +14,29 @@ picture = [
 		# if 1 -> print *
 		# may have to use end(use google)
 		
-for i in range(len(picture)):
-	print(picture[i])
+#for row in picture:
+#	for pixel in row:
+#		if (pixel == 1):
+#			print('*', end='')
+#		else:
+#			print(' ', end='')
+#	print('')
+
+
+image = [
+	[0, 0, 0, 1, 0, 0, 0],
+	[0, 0, 0, 1, 0, 0, 0],
+	[0, 0, 0, 0, 0, 0, 0],
+	]
+
+for unit in image:
+	for pixel in unit:
+		if (pixel == 1):
+			print('*', end='')
+		else:
+			print(' ', end='')
+	print('')
+
 
 
 
