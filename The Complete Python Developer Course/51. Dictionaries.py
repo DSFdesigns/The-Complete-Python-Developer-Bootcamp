@@ -24,7 +24,7 @@ my_list = [
 ]
 
 #print(my_list[0]['a'][2])
-print(my_list[1]['a'][2])
+#print(my_list[1]['a'][2])
 #print(my_list)
 
 # Practice Dictionary
@@ -38,7 +38,7 @@ cat_dictionary = {
 
 print(cat_dictionary['a'][1:])
 print(cat_dictionary['c'][3:])
-print(cat_dictionary)
+#print(cat_dictionary)
 
 
 

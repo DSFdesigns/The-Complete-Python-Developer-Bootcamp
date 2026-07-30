@@ -26,3 +26,10 @@ message = f"Hello, {full_name.title()}"
 print(full_name)
 
 print(message)
+
+gato1 = 'Debu'
+debu_age = 'don\'t know'
+print(f'I {debu_age} {gato1} gatos age.')
+print('I {} {} gatos ate.'.format(debu_age, gato1))
+
+

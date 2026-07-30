@@ -5,3 +5,9 @@ selfish = '01234567'
 selfish = '8' # New string will work
 print(selfish)
 
+
+cat = 'gato'
+
+cat = 'debu'
+
+print(cat)
