@@ -26,7 +26,7 @@ picture = [
 image = [
 	[0, 0, 0, 1, 0, 0, 0],
 	[0, 0, 0, 1, 0, 0, 0],
-	[0, 0, 0, 0, 0, 0, 0],
+	[0, 0, 1, 0, 1, 0, 0],
 	]
 
 for unit in image:
@@ -34,7 +34,7 @@ for unit in image:
 		if (pixel == 1):
 			print('*', end='')
 		else:
-			print(' ', end='')
+			print('-', end='')
 	print('')
 
 
