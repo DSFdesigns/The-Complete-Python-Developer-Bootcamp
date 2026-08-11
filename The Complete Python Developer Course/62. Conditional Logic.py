@@ -1,6 +1,6 @@
 # 62. Conditional Logic
 is_old = True
-is_licenced = False
+is_licenced = True
 
 if is_old and is_licenced:# Is True print if False dont print
     print('You are old enough to drive, and you have a licence!.')
