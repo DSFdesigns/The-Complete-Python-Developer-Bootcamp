@@ -11,7 +11,7 @@ i = 0
 	
 # Practice Below:
 cats = 6
-dogs = 5
+dogs = 7
 
 while cats > dogs:
 	print('There are more cats')

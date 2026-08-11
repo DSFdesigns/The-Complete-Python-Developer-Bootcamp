@@ -1,7 +1,7 @@
 # 66. Short Circuiting
 
-is_Friend = False
-is_User = True
+is_Friend = True
+is_User = False
 
 # print(is_Friend and is_User)
 
