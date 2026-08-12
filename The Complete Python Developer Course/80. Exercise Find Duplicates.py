@@ -1,7 +1,11 @@
 # 80. Find Duplicates in the list:
 some_list = ['a', 'b', 'c', 'b', 'd', 'm', 'n', 'n']
+duplicates = []
 
 # print the duplicate values in a list
 
-for items in some_list:
-	print(items)
+for values in some_list:
+	if some_list.count(values) > 1:
+		if values not in duplicates:
+			duplicates.append(values)
+print("Duplicate Values are: ", duplicates)
