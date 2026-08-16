@@ -19,5 +19,14 @@ def show_tree():
 				print('-', end='')
 		print('')
 show_tree()
+# Example 2
+cats = ['Debu', 'Young', 'Kan', 'Gato']
+
+def show_cats():
+	if cats == 'Debu':
+		print(True)
+	else:
+		print(False)
+show_cats()
 
 
