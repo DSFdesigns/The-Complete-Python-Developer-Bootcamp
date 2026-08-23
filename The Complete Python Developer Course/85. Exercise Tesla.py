@@ -1,0 +1,38 @@
+#1.(Done) Wrap the above code in a function called checkDriverAge(). 
+# (Done) Whenever you call this function, you will get prompted for age. 
+# (Done) Notice the benefit in having checkDriverAge() instead of copying and pasting the function everytime?
+#2 Instead of using the input(). Now, make the checkDriverAge() function accept an argument of age, so that if you enter:
+#checkDriverAge(92);
+#it returns "Powering On. Enjoy the ride!"
+#also make it so that the default age is set to 0 if no argument is given.
+
+# 1 (done)
+# age = input("What is your age?:")
+
+# def checkDriverAge():
+# 	if int(age) < 18:
+# 		print("Sorry, you are too young to drive this car. Powering off")
+# 	elif int(age) > 18:
+# 		print("Powering On. Enjoy the ride!");
+# 	elif int(age) == 18:
+# 		print("Congratulations on your first year of driving. Enjoy the ride!")
+	
+#checkDriverAge()
+
+# 2
+age = 1
+
+def checkDriverAge(93):
+	if int(age) < 18:
+		print("Sorry, you are too young to drive this car. Powering off")
+	elif int(age) > 18:
+		print("Powering On. Enjoy the ride!");
+	elif int(age) == 18:
+		print("Congratulations on your first year of driving. Enjoy the ride!")
+	
+checkDriverAge()
+
+
+
+
+	
