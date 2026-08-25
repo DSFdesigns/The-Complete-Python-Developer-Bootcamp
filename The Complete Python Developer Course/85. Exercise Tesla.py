@@ -20,9 +20,9 @@
 #checkDriverAge()
 
 # 2
-age = 1
+age = 0
 
-def checkDriverAge(93):
+def checkDriverAge(age = (92)):
 	if int(age) < 18:
 		print("Sorry, you are too young to drive this car. Powering off")
 	elif int(age) > 18:
