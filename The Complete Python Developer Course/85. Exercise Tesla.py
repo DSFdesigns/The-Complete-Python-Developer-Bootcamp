@@ -7,30 +7,25 @@
 #also make it so that the default age is set to 0 if no argument is given.
 
 # 1 (done)
-# age = input("What is your age?:")
-
-# def checkDriverAge():
-# 	if int(age) < 18:
-# 		print("Sorry, you are too young to drive this car. Powering off")
-# 	elif int(age) > 18:
-# 		print("Powering On. Enjoy the ride!");
-# 	elif int(age) == 18:
-# 		print("Congratulations on your first year of driving. Enjoy the ride!")
-	
-#checkDriverAge()
-
-# 2
-age = 0
-
-def checkDriverAge(age = (92)):
+ def checkDriverAge():
+	age = input("What is your age?: ")
 	if int(age) < 18:
 		print("Sorry, you are too young to drive this car. Powering off")
-	elif int(age) > 18:
-		print("Powering On. Enjoy the ride!");
-	elif int(age) == 18:
+ 	elif int(age) > 18:
+ 		print("Powering On. Enjoy the ride!");
+ 	elif int(age) == 18:
 		print("Congratulations on your first year of driving. Enjoy the ride!")
-	
 checkDriverAge()
+
+# 2 (Done)
+#def checkDriverAge(age = 0):
+#	if int(age) < 18:
+#		print("Sorry, you are too young to drive this car. Powering off")
+#		print("Powering On. Enjoy the ride!");
+#	elif int(age) == 18:
+#		print("Congratulations on your first year of driving. Enjoy the ride!")
+	
+# checkDriverAge(92)
 
 
 
