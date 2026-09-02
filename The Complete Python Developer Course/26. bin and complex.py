@@ -4,3 +4,5 @@ bin(5)
 print(bin(5)) # prints binary representation of the number 5
 print(int('0b101', 2)) # converts binary to int
  
+print(bin(2))
+print(int('0b10', 2))

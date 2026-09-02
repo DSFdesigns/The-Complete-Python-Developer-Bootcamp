@@ -5,5 +5,5 @@ def some_random_stuff():
 some_random_stuff()
 
 # Methhods
- 'hello'.capitalize
- pass
+#'hello'.capitalize
+#pass

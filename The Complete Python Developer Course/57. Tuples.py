@@ -12,6 +12,7 @@ user = {
 
 print(user[(1,2)])
 print(4 in my_tuple)
+print(7 in my_tuple)
 
 
 

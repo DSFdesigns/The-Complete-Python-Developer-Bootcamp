@@ -1,7 +1,11 @@
 # 90. Exercise: Functions
 # Create function 
-def highest_even(li):
-	if li % 2 == 0:
-		pass
+num = [10, 2, 3, 4, 8, 11]
+
+def highest_even(num):
+	if num % 1 == 0:
+
+#print(num)
+print(highest_even)
 	
-print(highest_even([10, 2, 3, 4, 8, 11])) # print the highest even in the list
+#print(highest_even([10, 2, 3, 4, 8, 11])) # print the highest even in the list
