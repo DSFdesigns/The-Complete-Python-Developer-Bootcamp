@@ -29,4 +29,7 @@ def show_cats():
 		print(False)
 show_cats()
 
+# Example 3:
+
+
 
