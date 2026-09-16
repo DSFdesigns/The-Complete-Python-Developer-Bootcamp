@@ -18,14 +18,14 @@ def checkDriverAge():
 checkDriverAge()
 
 # 2 (Done)
-#def checkDriverAge(age = 0):
-#	if int(age) < 18:
-#		print("Sorry, you are too young to drive this car. Powering off")
-#		print("Powering On. Enjoy the ride!");
-#	elif int(age) == 18:
-#		print("Congratulations on your first year of driving. Enjoy the ride!")
+def checkDriverAge(age = 0):
+	if int(age) < 18:
+		print("Sorry, you are too young to drive this car. Powering off")
+		print("Powering On. Enjoy the ride!");
+	elif int(age) == 18:
+		print("Congratulations on your first year of driving. Enjoy the ride!")
 	
-# checkDriverAge(92)
+checkDriverAge(92)
 
 
 

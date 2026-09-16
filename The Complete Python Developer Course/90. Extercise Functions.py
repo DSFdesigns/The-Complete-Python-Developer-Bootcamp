@@ -30,5 +30,3 @@ def highest_odd(li):
 	return max(odds)
 	
 print(highest_odd([1, 2, 5, 8, 3, 11, 13]))
-
-
