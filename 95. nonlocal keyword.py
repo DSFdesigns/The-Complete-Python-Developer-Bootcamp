@@ -14,3 +14,5 @@ outer()
 # 2 - Parent local?
 # 3 - Global
 # Used in closures
+
+# Practice area:
