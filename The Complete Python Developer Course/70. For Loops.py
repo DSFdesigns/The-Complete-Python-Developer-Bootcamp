@@ -7,4 +7,8 @@
 for item in (1, 2, 3, 4, 5):
     for x in ['a', 'b', 'c']:
         print(item, x)
+        
+for cat in ('Debu', 'Young', 'Kan'):
+	for a in [1, 2, 3]:
+		print(cat, x)
 
