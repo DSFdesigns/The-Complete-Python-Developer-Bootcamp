@@ -1,22 +1,23 @@
 # 95. Nonlocal keyword (refers to parent local)
-#def outer():
-#    x = "local"
-#    def inner():
-#        nonlocal x
-#        x = "nonlocal"
-#        print("inner:", x)
+def outer():
+	x = "local"
+ 	def inner():
+  	nonlocal x
+  	x = "nonlocal"
+  	print("inner:", x)
 
-#   inner()
-#    print("outer:", x)
+	inner()
+	print("outer:", x)
 
-#outer()
+outer()
 
+"""
 # 1 - start with local
 # 2 - Parent local?
 # 3 - Global
 # Used in closures
 
-# Practice area:
+# Practice 1:
 def debu():
 	d = "boss"
 	def young():
@@ -28,3 +29,14 @@ def debu():
 	print("debu", d)
 		
 debu()
+
+# Practice 2:
+x = "local"
+	def inner():
+	nonlocal x
+	x = "nonlocal"
+		print("inner:", x)
+		
+	inner()
+		print("outer"), x
+"""

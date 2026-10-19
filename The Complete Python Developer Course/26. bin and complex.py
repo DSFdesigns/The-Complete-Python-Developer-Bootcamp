@@ -6,3 +6,6 @@ print(int('0b101', 2)) # converts binary to int
  
 print(bin(2))
 print(int('0b10', 2))
+
+print(bin(1))
+print(int('0b1', 2))

@@ -11,3 +11,9 @@ cat = 'gato'
 cat = 'debu'
 
 print(cat)
+
+dog = 'Dawson'
+
+dog = 'Penny'
+
+print(dog)

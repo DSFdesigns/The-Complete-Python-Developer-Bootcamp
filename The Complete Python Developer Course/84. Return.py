@@ -18,4 +18,13 @@ print(total)
 
 # the return keyword exits the function
 
+# Practice
+def gatos(gato1, gato2):
+	def another_func(g1, g2):
+		return g1 + g2
+	return another_func(gato1, gato2)
+	
+total = gatos(3, 4)
+print(total)
+
 

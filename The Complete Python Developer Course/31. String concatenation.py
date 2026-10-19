@@ -7,4 +7,3 @@ mname = "Derrick"
 age = 52
 
 print(fname + " " + mname + " " + lname)
-

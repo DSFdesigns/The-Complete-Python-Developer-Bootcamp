@@ -14,7 +14,12 @@
 # print(counting[-1]) # Starts at end of string
 # print(counting[::-2]) # Gives reverse order of string
 # print(counting[::-1])
-#print(counting[0:8:3])
+# print(counting[0:8:3])
 
 cats = 'kan chan'
 print(cats[0:2])
+print(cats[0:])
+print(cats[:5])
+print(cats[::5])
+print(cats[-3])
+print(cats[::-2])
