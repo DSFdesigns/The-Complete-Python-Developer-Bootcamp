@@ -7,6 +7,8 @@ dictionary = {
 	'x' : True
 }
 
+print(dictionary['a'])
+
 #print(dictionary)
 #print(dictionary['a'])
 
@@ -38,6 +40,7 @@ cat_dictionary = {
 
 print(cat_dictionary['a'][1:])
 print(cat_dictionary['c'][3:])
+print(cat_dictionary['d'])
 #print(cat_dictionary)
 
 
