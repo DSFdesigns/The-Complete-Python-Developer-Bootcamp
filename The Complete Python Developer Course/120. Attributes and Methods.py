@@ -14,11 +14,11 @@ class PlayerCharacter:# Singular
 player1 = PlayerCharacter('Darby', 44)
 player2 = PlayerCharacter('Tom', 21)
 
-# print(player1.run())
-# print(player2.age)
-# print(player1)
-# print(player2)
-# help(player1)
+print(player1.run())
+print(player2.age)
+print(player1)
+print(player2)
+help(player1)
 """
 # Example 2
 class PlayerCharacter:# Singular
@@ -30,7 +30,7 @@ class PlayerCharacter:# Singular
          self.age = age
 
     def shout(self):
-        print(f'my name is {self.name}')
+        print(f'My name is {self.name}')
 
 player1 = PlayerCharacter('Darby', 44)
 player2 = PlayerCharacter('Tom', 21)
