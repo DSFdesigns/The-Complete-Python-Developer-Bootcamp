@@ -34,7 +34,7 @@ class PlayerCharacter:# Singular
 
 player1 = PlayerCharacter('Darby', 44)
 player2 = PlayerCharacter('Tom', 21)
-player2.attack = 50
+#player2.attack = 50
 
 print(player1.shout())
 print(player2.shout())

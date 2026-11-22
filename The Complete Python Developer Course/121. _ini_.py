@@ -12,7 +12,7 @@ class PlayerCharacter:# Singular
 		print(f'my name is {self.name} I am {self.age} years old')
         
 player1 = PlayerCharacter('Davey', 22)
-#player2 = PlayerCharacter('Tom', 21)
+player2 = PlayerCharacter('Tom', 21)
 #player2.attack = 50
 
 print(player1.shout())
