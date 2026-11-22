@@ -9,7 +9,7 @@ class PlayerCharacter:# Singular
 			self.age = age
 
 	def shout(self):
-		print(f'my name is {self.name}')
+		print(f'my name is {self.name} I am {self.age} years old')
         
 player1 = PlayerCharacter('Davey', 22)
 #player2 = PlayerCharacter('Tom', 21)
