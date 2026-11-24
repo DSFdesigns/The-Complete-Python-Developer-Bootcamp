@@ -21,7 +21,7 @@ class Cat:
 
 
 gato1 = Cat('Debu', 18)
-gato2 = Cat('Young', 10)
+gato2 = Cat('Young', 11)
 gato3 = Cat('Kan', 20)
 
 #print(oldest_cat([gato1.age, gato2.age, gato3.age]))
