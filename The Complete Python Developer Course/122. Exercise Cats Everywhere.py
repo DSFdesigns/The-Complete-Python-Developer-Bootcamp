@@ -25,8 +25,8 @@ gato2 = Cat('Young', 10)
 gato3 = Cat('Kan', 20)
 
 #print(oldest_cat([gato1.age, gato2.age, gato3.age]))
-print(oldest_cat)
+#print(oldest_cat)
 
-#print(gato1.name, gato1.age)
+print(gato1.name, gato1.age)
 #print(gato2.name, gato2.age)
 #print(gato3.name, gato3.age)
